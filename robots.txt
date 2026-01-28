@@ -1,0 +1,14 @@
+# robots.txt for gyomuyou-aircon-hikaku
+
+User-agent: *
+Allow: /
+
+# Disallow specific directories if any
+# Disallow: /private/
+# Disallow: /temp/
+
+# Sitemap location
+Sitemap: https://aircon-gekiyasuou.jp/sitemap.xml
+
+# Crawl-delay (optional, prevents server overload)
+# Crawl-delay: 1

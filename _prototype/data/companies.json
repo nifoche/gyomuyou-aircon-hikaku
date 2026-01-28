@@ -1,0 +1,229 @@
+{
+  "companies": [
+    {
+      "id": "genki-denki",
+      "name": "元気でんき",
+      "url": "https://aircon-gekiyasuou.jp/",
+      "logo": "/images/logos/genki-denki.png",
+      "isSelf": true,
+      "ranking": {
+        "basicFee": "◎",
+        "technicalFee": "◎",
+        "partsFee": "◎",
+        "responseTime": "◎",
+        "businessHours": "◎",
+        "coverageArea": "○",
+        "companyScale": "◎",
+        "warrantyPeriod": "◎"
+      },
+      "details": {
+        "basicFee": "¥3,000（業界最安値帯）",
+        "technicalFee": "¥4,000〜¥8,000（業界標準より低め）",
+        "partsFee": "実費+10%（業界最安値水準）",
+        "shortestResponseTime": "最短2時間（関東・東海・関西）",
+        "businessHours": "24時間365日対応（深夜割増なし）",
+        "coverageArea": "関東、東海、関西に注力",
+        "companyScale": "800億円売上目標、業界成長企業",
+        "warrantyPeriod": "修理後1年間の無料保証",
+        "supportedManufacturers": "全メーカー対応"
+      },
+      "features": [
+        "業界最安値帯の基本料金¥3,000",
+        "24時間365日対応（深夜割増なし）",
+        "最短2時間で迅速対応（関東・東海・関西）",
+        "修理後1年間の無料保証付き",
+        "全メーカー対応、古い機種も修理可能"
+      ]
+    },
+    {
+      "id": "aircon-pro-repair",
+      "name": "業務用エアコンPRO修理",
+      "companyName": "エム・エヌ・ジャパン",
+      "url": "https://www.m-biz.jp/",
+      "logo": "/images/logos/aircon-pro-repair.png",
+      "isSelf": false,
+      "ranking": {
+        "basicFee": "△",
+        "technicalFee": "○",
+        "partsFee": "△",
+        "responseTime": "○",
+        "businessHours": "○",
+        "coverageArea": "◎",
+        "companyScale": "○",
+        "warrantyPeriod": "○"
+      },
+      "details": {
+        "basicFee": "¥15,000〜（業界平均）",
+        "technicalFee": "¥8,000〜¥12,000（業界平均）",
+        "partsFee": "実費+20%（業界平均）",
+        "shortestResponseTime": "当日〜翌日対応",
+        "businessHours": "8:00-20:00",
+        "coverageArea": "全国47都道府県",
+        "companyScale": "大手メーカー認定業者",
+        "warrantyPeriod": "修理後30日〜6ヶ月",
+        "supportedManufacturers": "ダイキン、日立、東芝等主要メーカー"
+      },
+      "features": [
+        "全国47都道府県対応",
+        "主要メーカー全てに対応",
+        "古い機種の修理も可能",
+        "技術力が高く実績豊富"
+      ]
+    },
+    {
+      "id": "rockfield",
+      "name": "株式会社ロックフィールド",
+      "url": "https://rockfield-air.net/",
+      "logo": "/images/logos/rockfield.png",
+      "isSelf": false,
+      "ranking": {
+        "basicFee": "○",
+        "technicalFee": "△",
+        "partsFee": "○",
+        "responseTime": "◎",
+        "businessHours": "◎",
+        "coverageArea": "○",
+        "companyScale": "○",
+        "warrantyPeriod": "○"
+      },
+      "details": {
+        "basicFee": "¥8,400〜（軽微な修理）",
+        "technicalFee": "¥12,000〜¥25,000（ガス不足補充）",
+        "partsFee": "実費+15%",
+        "shortestResponseTime": "最短当日訪問",
+        "businessHours": "24時間365日受付（夜間+3,000円〜）",
+        "coverageArea": "関東（東京23区：新宿・渋谷・池袋等）",
+        "companyScale": "中規模",
+        "warrantyPeriod": "修理後1〜3ヶ月",
+        "supportedManufacturers": "全メーカー対応"
+      },
+      "features": [
+        "24時間365日受付",
+        "最短当日訪問でスピード対応",
+        "夜間対応も可能（割増料金）",
+        "初期相談無料"
+      ]
+    },
+    {
+      "id": "aircon-honten",
+      "name": "エアコン総本店",
+      "companyName": "株式会社シナジー",
+      "url": "https://www.1981airconsohonten.jp/",
+      "logo": "/images/logos/aircon-honten.png",
+      "isSelf": false,
+      "ranking": {
+        "basicFee": "○",
+        "technicalFee": "○",
+        "partsFee": "○",
+        "responseTime": "△",
+        "businessHours": "△",
+        "coverageArea": "◎",
+        "companyScale": "○",
+        "warrantyPeriod": "△"
+      },
+      "details": {
+        "basicFee": "¥10,000〜¥15,000",
+        "technicalFee": "¥8,000〜¥15,000",
+        "partsFee": "実費+15%",
+        "shortestResponseTime": "2〜3日",
+        "businessHours": "9:00-18:00",
+        "coverageArea": "首都圏・全国",
+        "companyScale": "ダイキン認定業者（受賞歴あり）",
+        "warrantyPeriod": "修理後1ヶ月〜6ヶ月",
+        "supportedManufacturers": "ダイキン特化、他メーカーも対応"
+      },
+      "features": [
+        "販売・施工・保守の一貫体制",
+        "修理vs買い替えの提案あり",
+        "ダイキン認定業者（40回以上の受賞歴）",
+        "無料見積もり対応"
+      ]
+    },
+    {
+      "id": "shuri110",
+      "name": "空調修理110番",
+      "companyName": "シェアリングテクノロジー運営",
+      "url": "https://www.eacon110.com/",
+      "logo": "/images/logos/shuri110.png",
+      "isSelf": false,
+      "ranking": {
+        "basicFee": "△",
+        "technicalFee": "△",
+        "partsFee": "△",
+        "responseTime": "○",
+        "businessHours": "◎",
+        "coverageArea": "◎",
+        "companyScale": "◎",
+        "warrantyPeriod": "○"
+      },
+      "details": {
+        "basicFee": "¥12,000〜¥20,000",
+        "technicalFee": "¥10,000〜¥18,000",
+        "partsFee": "実費+20%",
+        "shortestResponseTime": "当日〜翌日",
+        "businessHours": "24時間コールセンター",
+        "coverageArea": "日本全国（加盟店ネットワーク）",
+        "companyScale": "大手プラットフォーム企業運営",
+        "warrantyPeriod": "店舗により異なる",
+        "supportedManufacturers": "全メーカー対応"
+      },
+      "features": [
+        "全国加盟店ネットワーク",
+        "24時間コールセンター対応",
+        "見積もりキャンセル規定が明確",
+        "大手企業運営で安心感あり"
+      ]
+    },
+    {
+      "id": "fuji-setubi",
+      "name": "株式会社富士設備",
+      "url": "https://proshop.ac.daikin.co.jp/business/search/area/tokyo/detail/4",
+      "logo": "/images/logos/fuji-setubi.png",
+      "isSelf": false,
+      "ranking": {
+        "basicFee": "○",
+        "technicalFee": "△",
+        "partsFee": "△",
+        "responseTime": "○",
+        "businessHours": "△",
+        "coverageArea": "△",
+        "companyScale": "○",
+        "warrantyPeriod": "○"
+      },
+      "details": {
+        "basicFee": "¥10,000〜¥20,000（大規模施設は別見積）",
+        "technicalFee": "¥15,000〜¥30,000（大規模向け）",
+        "partsFee": "実費+20%（大規模工事は別途）",
+        "shortestResponseTime": "2〜3日（大規模は1週間〜）",
+        "businessHours": "8:30-17:30",
+        "coverageArea": "関東・近畿中心",
+        "companyScale": "ダイキン認定販売施工店",
+        "warrantyPeriod": "修理後3ヶ月〜1年",
+        "supportedManufacturers": "ダイキン特化"
+      },
+      "features": [
+        "大規模ビル・工場対応に特化",
+        "根本原因の追究と再発防止",
+        "施工管理体制が充実",
+        "ダイキン認定販売施工店"
+      ]
+    }
+  ],
+  "rankingDescription": {
+    "excellent": "◎",
+    "standard": "○",
+    "needsImprovement": "△",
+    "legend": "◎=最良、○=標準、△=課題あり"
+  },
+  "lastUpdated": "2026-01-28",
+  "dataSources": [
+    "各社公式サイト",
+    "Web検索結果",
+    "業界平均値（推定）"
+  ],
+  "notes": [
+    "料金・対応時間等の情報は2026年1月時点のものです",
+    "正確な最新情報は各社公式サイトをご確認ください",
+    "推定値には「推定」の表記を追加"
+  ]
+}

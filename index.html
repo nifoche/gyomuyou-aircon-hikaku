@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>業務用エアコン修理業者 比較サイト｜急な故障時の業者選び</title>
+  <meta name="description" content="業務用エアコンが故障時の修理業者比較サイト。関東・東海・関西の主要修理業者6社を料金・スピード・実績で比較。最短2時間対応、24時間365日受付の元気でんきがおすすめです。">
+  <meta name="keywords" content="業務用エアコン修理,エアコン故障,修理業者,比較,関東,東海,関西,24時間対応">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <h1 class="site-title">業務用エアコン修理 比較サイト</h1>
+        <a href="https://aircon-gekiyasuou.jp/" class="cta-button header-cta" target="_blank" rel="noopener">
+          サービスサイトを見る
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ヒーローセクション -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2 class="hero-title">業務用エアコンが故障したら？</h2>
+        <p class="hero-subtitle">関東・東海・関西の主要修理業者6社を比較</p>
+        <p class="hero-description">
+          業務用エアコンが故障すると、営業に支障が出ます。<br>
+          でも、どの業者に頼んだらいい？料金は？対応は？<br>
+          料金・スピード・実績で比較して、あなたにぴったりの業者が見つかります。
+        </p>
+        <div class="hero-cta-group">
+          <a href="https://aircon-gekiyasuou.jp/" class="cta-button hero-cta-primary" target="_blank" rel="noopener">
+            元気でんきのサービスを見る
+          </a>
+          <a href="#comparison" class="cta-button hero-cta-secondary">
+            比較表を見る
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 比較表セクション -->
+  <section id="comparison" class="comparison-section">
+    <div class="container">
+      <h2 class="section-title">6社を料金・スピード・実績で比較</h2>
+      <p class="section-subtitle">◎=最良、○=標準、△=課題あり</p>
+
+      <!-- フィルター機能 -->
+      <div class="filter-section">
+        <h3>対応地域で絞り込む</h3>
+        <div class="filter-buttons">
+          <button class="filter-button active" data-filter="all">すべて</button>
+          <button class="filter-button" data-filter="kanto">関東</button>
+          <button class="filter-button" data-filter="tokai">東海</button>
+          <button class="filter-button" data-filter="kansai">関西</button>
+          <button class="filter-button" data-filter="nationwide">全国</button>
+        </div>
+      </div>
+
+      <!-- 比較テーブル -->
+      <div class="comparison-table-wrapper">
+        <table class="comparison-table" id="comparisonTable">
+          <thead>
+            <tr>
+              <th>項目</th>
+              <th class="highlight-column">元気でんき</th>
+              <th>業務用エアコン<br>PRO修理</th>
+              <th>株式会社<br>ロックフィールド</th>
+              <th>エアコン<br>総本店</th>
+              <th>空調<br>修理110番</th>
+              <th>株式会社<br>富士設備</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>基本料金</th>
+              <td class="highlight-column" data-company="genki-denki" data-region="kanto tokai kansai">
+                <span class="ranking-excellent">◎</span><br>
+                ¥3,000
+              </td>
+              <td data-company="aircon-pro-repair" data-region="nationwide">
+                <span class="ranking-needs-improvement">△</span><br>
+                ¥15,000〜
+              </td>
+              <td data-company="rockfield" data-region="kanto">
+                <span class="ranking-standard">○</span><br>
+                ¥8,400〜
+              </td>
+              <td data-company="aircon-honten" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                ¥10,000〜
+              </td>
+              <td data-company="shuri110" data-region="nationwide">
+                <span class="ranking-needs-improvement">△</span><br>
+                ¥12,000〜
+              </td>
+              <td data-company="fuji-setubi" data-region="kanto kansai">
+                <span class="ranking-standard">○</span><br>
+                ¥10,000〜
+              </td>
+            </tr>
+            <tr>
+              <th>技術料金</th>
+              <td class="highlight-column" data-company="genki-denki" data-region="kanto tokai kansai">
+                <span class="ranking-excellent">◎</span><br>
+                ¥4,000〜¥8,000
+              </td>
+              <td data-company="aircon-pro-repair" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                ¥8,000〜¥12,000
+              </td>
+              <td data-company="rockfield" data-region="kanto">
+                <span class="ranking-needs-improvement">△</span><br>
+                ¥12,000〜¥25,000
+              </td>
+              <td data-company="aircon-honten" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                ¥8,000〜¥15,000
+              </td>
+              <td data-company="shuri110" data-region="nationwide">
+                <span class="ranking-needs-improvement">△</span><br>
+                ¥10,000〜¥18,000
+              </td>
+              <td data-company="fuji-setubi" data-region="kanto kansai">
+                <span class="ranking-needs-improvement">△</span><br>
+                ¥15,000〜¥30,000
+              </td>
+            </tr>
+            <tr>
+              <th>部品代金</th>
+              <td class="highlight-column" data-company="genki-denki" data-region="kanto tokai kansai">
+                <span class="ranking-excellent">◎</span><br>
+                実費+10%
+              </td>
+              <td data-company="aircon-pro-repair" data-region="nationwide">
+                <span class="ranking-needs-improvement">△</span><br>
+                実費+20%
+              </td>
+              <td data-company="rockfield" data-region="kanto">
+                <span class="ranking-standard">○</span><br>
+                実費+15%
+              </td>
+              <td data-company="aircon-honten" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                実費+15%
+              </td>
+              <td data-company="shuri110" data-region="nationwide">
+                <span class="ranking-needs-improvement">△</span><br>
+                実費+20%
+              </td>
+              <td data-company="fuji-setubi" data-region="kanto kansai">
+                <span class="ranking-needs-improvement">△</span><br>
+                実費+20%
+              </td>
+            </tr>
+            <tr>
+              <th>最短対応時間</th>
+              <td class="highlight-column" data-company="genki-denki" data-region="kanto tokai kansai">
+                <span class="ranking-excellent">◎</span><br>
+                2時間
+              </td>
+              <td data-company="aircon-pro-repair" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                当日〜翌日
+              </td>
+              <td data-company="rockfield" data-region="kanto">
+                <span class="ranking-excellent">◎</span><br>
+                当日
+              </td>
+              <td data-company="aircon-honten" data-region="nationwide">
+                <span class="ranking-needs-improvement">△</span><br>
+                2〜3日
+              </td>
+              <td data-company="shuri110" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                当日〜翌日
+              </td>
+              <td data-company="fuji-setubi" data-region="kanto kansai">
+                <span class="ranking-standard">○</span><br>
+                2〜3日
+              </td>
+            </tr>
+            <tr>
+              <th>営業時間</th>
+              <td class="highlight-column" data-company="genki-denki" data-region="kanto tokai kansai">
+                <span class="ranking-excellent">◎</span><br>
+                24時間365日
+              </td>
+              <td data-company="aircon-pro-repair" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                8:00-20:00
+              </td>
+              <td data-company="rockfield" data-region="kanto">
+                <span class="ranking-excellent">◎</span><br>
+                24時間365日
+              </td>
+              <td data-company="aircon-honten" data-region="nationwide">
+                <span class="ranking-needs-improvement">△</span><br>
+                9:00-18:00
+              </td>
+              <td data-company="shuri110" data-region="nationwide">
+                <span class="ranking-excellent">◎</span><br>
+                24時間
+              </td>
+              <td data-company="fuji-setubi" data-region="kanto kansai">
+                <span class="ranking-needs-improvement">△</span><br>
+                8:30-17:30
+              </td>
+            </tr>
+            <tr>
+              <th>対応地域</th>
+              <td class="highlight-column" data-company="genki-denki" data-region="kanto tokai kansai">
+                <span class="ranking-standard">○</span><br>
+                関東・東海・関西
+              </td>
+              <td data-company="aircon-pro-repair" data-region="nationwide">
+                <span class="ranking-excellent">◎</span><br>
+                全国
+              </td>
+              <td data-company="rockfield" data-region="kanto">
+                <span class="ranking-standard">○</span><br>
+                関東
+              </td>
+              <td data-company="aircon-honten" data-region="nationwide">
+                <span class="ranking-excellent">◎</span><br>
+                首都圏・全国
+              </td>
+              <td data-company="shuri110" data-region="nationwide">
+                <span class="ranking-excellent">◎</span><br>
+                全国
+              </td>
+              <td data-company="fuji-setubi" data-region="kanto kansai">
+                <span class="ranking-needs-improvement">△</span><br>
+                関東・近畿
+              </td>
+            </tr>
+            <tr>
+              <th>企業規模</th>
+              <td class="highlight-column" data-company="genki-denki" data-region="kanto tokai kansai">
+                <span class="ranking-excellent">◎</span><br>
+                大規模
+              </td>
+              <td data-company="aircon-pro-repair" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                中規模
+              </td>
+              <td data-company="rockfield" data-region="kanto">
+                <span class="ranking-standard">○</span><br>
+                中規模
+              </td>
+              <td data-company="aircon-honten" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                中規模
+              </td>
+              <td data-company="shuri110" data-region="nationwide">
+                <span class="ranking-excellent">◎</span><br>
+                大規模
+              </td>
+              <td data-company="fuji-setubi" data-region="kanto kansai">
+                <span class="ranking-standard">○</span><br>
+                中規模
+              </td>
+            </tr>
+            <tr>
+              <th>保証期間</th>
+              <td class="highlight-column" data-company="genki-denki" data-region="kanto tokai kansai">
+                <span class="ranking-excellent">◎</span><br>
+                1年
+              </td>
+              <td data-company="aircon-pro-repair" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                30日〜6ヶ月
+              </td>
+              <td data-company="rockfield" data-region="kanto">
+                <span class="ranking-standard">○</span><br>
+                1〜3ヶ月
+              </td>
+              <td data-company="aircon-honten" data-region="nationwide">
+                <span class="ranking-needs-improvement">△</span><br>
+                1〜6ヶ月
+              </td>
+              <td data-company="shuri110" data-region="nationwide">
+                <span class="ranking-standard">○</span><br>
+                店舗により異なる
+              </td>
+              <td data-company="fuji-setubi" data-region="kanto kansai">
+                <span class="ranking-standard">○</span><br>
+                3ヶ月〜1年
+              </td>
+            </tr>
+            <tr class="action-row">
+              <th></th>
+              <td class="highlight-column">
+                <a href="https://aircon-gekiyasuou.jp/" class="cta-button table-cta" target="_blank" rel="noopener">
+                  サービスサイトを見る
+                </a>
+              </td>
+              <td>
+                <a href="pages/aircon-pro-repair.html" class="secondary-button">詳細を見る</a>
+              </td>
+              <td>
+                <a href="pages/rockfield.html" class="secondary-button">詳細を見る</a>
+              </td>
+              <td>
+                <a href="pages/aircon-honten.html" class="secondary-button">詳細を見る</a>
+              </td>
+              <td>
+                <a href="pages/shuri110.html" class="secondary-button">詳細を見る</a>
+              </td>
+              <td>
+                <a href="pages/fuji-setubi.html" class="secondary-button">詳細を見る</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 各企業紹介セクション -->
+  <section class="companies-section">
+    <div class="container">
+      <h2 class="section-title">各業者の詳細を見る</h2>
+      <div class="companies-grid">
+        <a href="https://aircon-gekiyasuou.jp/" class="company-card featured" target="_blank" rel="noopener">
+          <div class="company-badge">おすすめ</div>
+          <h3>元気でんき</h3>
+          <p>業界最安値の基本料金¥3,000、24時間365日対応、最短2時間で迅速対応</p>
+          <span class="company-link">サービスサイトを見る →</span>
+        </a>
+        <a href="pages/aircon-pro-repair.html" class="company-card">
+          <h3>業務用エアコンPRO修理</h3>
+          <p>全国対応、全メーカー修理可能、技術力が高く実績豊富</p>
+          <span class="company-link">詳細を見る →</span>
+        </a>
+        <a href="pages/rockfield.html" class="company-card">
+          <h3>株式会社ロックフィールド</h3>
+          <p>24時間365日受付、最短当日訪問、スピード対応が強み</p>
+          <span class="company-link">詳細を見る →</span>
+        </a>
+        <a href="pages/aircon-honten.html" class="company-card">
+          <h3>エアコン総本店</h3>
+          <p>販売・施工・保守一貫体制、修理vs買い替え提案</p>
+          <span class="company-link">詳細を見る →</span>
+        </a>
+        <a href="pages/shuri110.html" class="company-card">
+          <h3>空調修理110番</h3>
+          <p>全国加盟店ネットワーク、24時間コールセンター</p>
+          <span class="company-link">詳細を見る →</span>
+        </a>
+        <a href="pages/fuji-setubi.html" class="company-card">
+          <h3>株式会社富士設備</h3>
+          <p>大規模ビル・工場対応、根本原因追究、施工管理体制</p>
+          <span class="company-link">詳細を見る →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQセクション -->
+  <section class="faq-section">
+    <div class="container">
+      <h2 class="section-title">よくある質問</h2>
+      <div class="faq-list">
+        <details class="faq-item">
+          <summary>業務用エアコンの修理費用の相場は？</summary>
+          <p>基本料金は¥8,000〜¥15,000が一般的ですが、元気でんきでは業界最安値の¥3,000から対応しています。技術料金や部品代が別途かかる場合があります。</p>
+        </details>
+        <details class="faq-item">
+          <summary>急な故障時、どれくらいで対応してくれる？</summary>
+          <p>業者によりますが、最短当日〜2日で対応する業者が多いです。元気でんきでは最短2時間、ロックフィールドでは最短当日訪問が可能です。</p>
+        </details>
+        <details class="faq-item">
+          <summary>深夜や早朝の対応は可能？</summary>
+          <p>元気でんきとロックフィールドが24時間365日対応しています。空調修理110番も24時間コールセンターで受け付けています。</p>
+        </details>
+        <details class="faq-item">
+          <summary>修理と買い替え、どちらがお得？</summary>
+          <p>エアコンの耐用年数（15〜20年）や故障内容によります。軽微な故障なら修理がお得ですが、頻繁に故障する場合は買い替えも検討しましょう。</p>
+        </details>
+        <details class="faq-item">
+          <summary>業者選びのポイントは？</summary>
+          <p>①対応エリア ②対応スピード ③料金の透明性 ④保証期間 ⑤実績・口コミ を総合的に判断しましょう。元気でんきはこれら全てで高い評価を得ています。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 記事セクション -->
+  <section class="articles-section">
+    <div class="container">
+      <h2 class="section-title">関連記事</h2>
+      <div class="articles-grid">
+        <a href="articles/aircon-repair-methods.html" class="article-card">
+          <h3>業務用エアコン修理方法とは｜基本から最新技術まで</h3>
+          <p>業務用エアコンの修理方法について初心者向けに解説します。</p>
+        </a>
+        <a href="articles/aircon-failure-causes.html" class="article-card">
+          <h3>業務用エアコンの故障原因・対処法｜故障パターン別ガイド</h3>
+          <p>よくある故障パターンと対処法をまとめました。</p>
+        </a>
+        <a href="articles/repair-vs-replacement.html" class="article-card">
+          <h3>修理か交換か？判断基準とコスト比較</h3>
+          <p>修理と買い替えの判断基準を費用対効果で比較します。</p>
+        </a>
+        <a href="articles/aircon-repair-cost.html" class="article-card">
+          <h3>業務用エアコン修理の相場｜料金の内訳と費用を抑えるコツ</h3>
+          <p>修理費用の内訳と、費用を抑えるポイントを解説します。</p>
+        </a>
+        <a href="articles/how-to-choose-repair-company.html" class="article-card">
+          <h3>修理業者選びのポイント｜失敗しない業者選定ガイド</h3>
+          <p>信頼できる業者を選ぶための5つのポイントを紹介します。</p>
+        </a>
+        <a href="articles/emergency-response-guide.html" class="article-card">
+          <h3>エアコン急な故障時の対応手順｜初期対応から業者選定まで</h3>
+          <p>急な故障時に慌てないための対応手順をまとめました。</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTAセクション -->
+  <section class="cta-section">
+    <div class="container">
+      <h2 class="cta-title">元気でんきなら安心の対応</h2>
+      <p class="cta-description">
+        業界最安値の基本料金¥3,000、24時間365日対応、最短2時間で迅速対応<br>
+        修理後1年間の無料保証付きで安心です
+      </p>
+      <a href="https://aircon-gekiyasuou.jp/" class="cta-button cta-large" target="_blank" rel="noopener">
+        無料見積もりを依頼する
+      </a>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>元気でんき</h3>
+          <p>業界をリードする業務用エアコン修理サービス</p>
+          <a href="https://aircon-gekiyasuou.jp/" target="_blank" rel="noopener">公式サイトを見る</a>
+        </div>
+        <div class="footer-section">
+          <h3>比較サイトについて</h3>
+          <ul>
+            <li><a href="#comparison">比較表</a></li>
+            <li><a href=".companies-section">各業者の詳細</a></li>
+            <li><a href=".faq-section">よくある質問</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>関連記事</h3>
+          <ul>
+            <li><a href="articles/aircon-repair-methods.html">修理方法について</a></li>
+            <li><a href="articles/repair-vs-replacement.html">修理か交換か</a></li>
+            <li><a href="articles/how-to-choose-repair-company.html">業者選びのポイント</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 業務用エアコン修理比較サイト. All rights reserved.</p>
+        <p class="disclaimer">※記載の情報は2026年1月時点のものです。最新情報は各社公式サイトをご確認ください。</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
