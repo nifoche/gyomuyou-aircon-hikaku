@@ -50,7 +50,7 @@ async function generateBeforeAfterImages(companyId) {
       await downloadImage(beforeImageUrl, path.join('public/images/before-after', beforeFileName));
 
       // 少し待機（API制限回避）
-      await sleep(1000);
+      await sleep(12000);
 
       // After画像生成
       const afterOutput = await replicate.run(
@@ -91,11 +91,17 @@ async function generateBeforeAfterImages(companyId) {
 
       console.log(`✓ Generated ${promptSet.category} for ${companyId}`);
 
-      // 少し待機（API制限回避）
-      await sleep(2000);
+      // 待機（API制限回避: $5未満は6リクエスト/分）
+      await sleep(10000);
 
     } catch (error) {
       console.error(`✗ Error generating ${promptSet.category} for ${companyId}:`, error.message);
+
+      // 429エラーの場合は追加待機
+      if (error.message.includes('429')) {
+        console.log(`  Rate limited, waiting 15 seconds...`);
+        await sleep(15000);
+      }
     }
   }
 
@@ -140,11 +146,17 @@ async function generateGalleryImages(companyId, count = 3) {
 
       console.log(`✓ Generated gallery ${i + 1} for ${companyId}`);
 
-      // 少し待機（API制限回避）
-      await sleep(2000);
+      // 待機（API制限回避: $5未満は6リクエスト/分）
+      await sleep(10000);
 
     } catch (error) {
       console.error(`✗ Error generating gallery ${i + 1} for ${companyId}:`, error.message);
+
+      // 429エラーの場合は追加待機
+      if (error.message.includes('429')) {
+        console.log(`  Rate limited, waiting 15 seconds...`);
+        await sleep(15000);
+      }
     }
   }
 
@@ -153,7 +165,7 @@ async function generateGalleryImages(companyId, count = 3) {
 
 // 画像ダウンロード
 async function downloadImage(url, filepath) {
-  const response = await fetch(url);
+  const response = await global.fetch(url);
   const buffer = await response.arrayBuffer();
   await fs.writeFile(filepath, Buffer.from(buffer));
   console.log(`  Downloaded: ${filepath}`);
@@ -222,36 +234,38 @@ async function main() {
 }
 
 // コマンドライン引数で特定の企業のみ生成可能
-const targetCompany = process.argv[2];
+(async () => {
+  const targetCompany = process.argv[2];
 
-if (targetCompany) {
-  console.log(`Target company: ${targetCompany}`);
-  // 特定の企業のみ処理
-  const companiesData = JSON.parse(await fs.readFile('data/companies.json', 'utf-8'));
-  const company = companiesData.companies.find(c => c.id === targetCompany);
+  if (targetCompany) {
+    console.log(`Target company: ${targetCompany}`);
+    // 特定の企業のみ処理
+    const companiesData = JSON.parse(await fs.readFile('data/companies.json', 'utf-8'));
+    const company = companiesData.companies.find(c => c.id === targetCompany);
 
-  if (!company) {
-    console.error(`Company ${targetCompany} not found`);
-    process.exit(1);
-  }
-
-  console.log(`\n=== Processing ${targetCompany} ===`);
-
-  const beforeAfterImages = await generateBeforeAfterImages(targetCompany);
-  const galleryImages = await generateGalleryImages(targetCompany, 3);
-
-  company.images = {
-    beforeAfter: beforeAfterImages,
-    gallery: galleryImages,
-    store: {
-      path: `/images/stores/${targetCompany}-shop.png`,
-      caption: `${company.name}のサービス拠点`,
-      alt: `${company.name}の業務用エアコン修理センター`
+    if (!company) {
+      console.error(`Company ${targetCompany} not found`);
+      process.exit(1);
     }
-  };
 
-  await fs.writeFile('data/companies.json', JSON.stringify(companiesData, null, 2));
-  console.log(`\n✓ Updated companies.json for ${targetCompany}`);
-} else {
-  main().catch(console.error);
-}
+    console.log(`\n=== Processing ${targetCompany} ===`);
+
+    const beforeAfterImages = await generateBeforeAfterImages(targetCompany);
+    const galleryImages = await generateGalleryImages(targetCompany, 3);
+
+    company.images = {
+      beforeAfter: beforeAfterImages,
+      gallery: galleryImages,
+      store: {
+        path: `/images/stores/${targetCompany}-shop.png`,
+        caption: `${company.name}のサービス拠点`,
+        alt: `${company.name}の業務用エアコン修理センター`
+      }
+    };
+
+    await fs.writeFile('data/companies.json', JSON.stringify(companiesData, null, 2));
+    console.log(`\n✓ Updated companies.json for ${targetCompany}`);
+  } else {
+    await main();
+  }
+})().catch(console.error);

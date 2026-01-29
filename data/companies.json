@@ -33,7 +33,90 @@
         "最短2時間で迅速対応（関東・東海・関西）",
         "修理後1年間の無料保証付き",
         "全メーカー対応、古い機種も修理可能"
-      ]
+      ],
+      "images": {
+        "beforeAfter": [
+          {
+            "id": "genki-denki-cleaning",
+            "category": "cleaning",
+            "title": "クリーニング作業",
+            "before": {
+              "path": "/images/before-after/genki-denki-cleaning-before.png",
+              "caption": "Before: クリーニング作業",
+              "alt": "genki-denki cleaning before"
+            },
+            "after": {
+              "path": "/images/before-after/genki-denki-cleaning-after.png",
+              "caption": "After: クリーニング作業",
+              "alt": "genki-denki cleaning after"
+            },
+            "generatedAt": "2026-01-29T05:04:10.751Z"
+          },
+          {
+            "id": "genki-denki-repair",
+            "category": "repair",
+            "title": "ガス不足補充",
+            "before": {
+              "path": "/images/before-after/genki-denki-repair-before.png",
+              "caption": "Before: ガス不足補充",
+              "alt": "genki-denki repair before"
+            },
+            "after": {
+              "path": "/images/before-after/genki-denki-repair-after.png",
+              "caption": "After: ガス不足補充",
+              "alt": "genki-denki repair after"
+            },
+            "generatedAt": "2026-01-29T05:04:23.841Z"
+          },
+          {
+            "id": "genki-denki-replacement",
+            "category": "replacement",
+            "title": "室外機交換",
+            "before": {
+              "path": "/images/before-after/genki-denki-replacement-before.png",
+              "caption": "Before: 室外機交換",
+              "alt": "genki-denki replacement before"
+            },
+            "after": {
+              "path": "/images/before-after/genki-denki-replacement-after.png",
+              "caption": "After: 室外機交換",
+              "alt": "genki-denki replacement after"
+            },
+            "generatedAt": "2026-01-29T05:04:39.111Z"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "genki-denki-1",
+            "path": "/images/examples/genki-denki-1.png",
+            "category": "installation",
+            "caption": "オフィスビルへの設置作業",
+            "alt": "genki-denki オフィスビルへの設置作業",
+            "generatedAt": "2026-01-29T05:04:52.074Z"
+          },
+          {
+            "id": "genki-denki-2",
+            "path": "/images/examples/genki-denki-2.png",
+            "category": "maintenance",
+            "caption": "定期メンテナンス作業",
+            "alt": "genki-denki 定期メンテナンス作業",
+            "generatedAt": "2026-01-29T05:05:05.247Z"
+          },
+          {
+            "id": "genki-denki-3",
+            "path": "/images/examples/genki-denki-3.png",
+            "category": "emergency",
+            "caption": "緊急修理対応",
+            "alt": "genki-denki 緊急修理対応",
+            "generatedAt": "2026-01-29T05:05:17.938Z"
+          }
+        ],
+        "store": {
+          "path": "/images/stores/genki-denki-shop.png",
+          "caption": "元気でんきのサービス拠点",
+          "alt": "元気でんきの業務用エアコン修理センター"
+        }
+      }
     },
     {
       "id": "aircon-pro-repair",
@@ -68,7 +151,90 @@
         "主要メーカー全てに対応",
         "古い機種の修理も可能",
         "技術力が高く実績豊富"
-      ]
+      ],
+      "images": {
+        "beforeAfter": [
+          {
+            "id": "aircon-pro-repair-cleaning",
+            "category": "cleaning",
+            "title": "クリーニング作業",
+            "before": {
+              "path": "/images/before-after/aircon-pro-repair-cleaning-before.png",
+              "caption": "Before: クリーニング作業",
+              "alt": "aircon-pro-repair cleaning before"
+            },
+            "after": {
+              "path": "/images/before-after/aircon-pro-repair-cleaning-after.png",
+              "caption": "After: クリーニング作業",
+              "alt": "aircon-pro-repair cleaning after"
+            },
+            "generatedAt": "2026-01-29T05:16:22.114Z"
+          },
+          {
+            "id": "aircon-pro-repair-repair",
+            "category": "repair",
+            "title": "ガス不足補充",
+            "before": {
+              "path": "/images/before-after/aircon-pro-repair-repair-before.png",
+              "caption": "Before: ガス不足補充",
+              "alt": "aircon-pro-repair repair before"
+            },
+            "after": {
+              "path": "/images/before-after/aircon-pro-repair-repair-after.png",
+              "caption": "After: ガス不足補充",
+              "alt": "aircon-pro-repair repair after"
+            },
+            "generatedAt": "2026-01-29T05:16:54.603Z"
+          },
+          {
+            "id": "aircon-pro-repair-replacement",
+            "category": "replacement",
+            "title": "室外機交換",
+            "before": {
+              "path": "/images/before-after/aircon-pro-repair-replacement-before.png",
+              "caption": "Before: 室外機交換",
+              "alt": "aircon-pro-repair replacement before"
+            },
+            "after": {
+              "path": "/images/before-after/aircon-pro-repair-replacement-after.png",
+              "caption": "After: 室外機交換",
+              "alt": "aircon-pro-repair replacement after"
+            },
+            "generatedAt": "2026-01-29T05:17:26.592Z"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "aircon-pro-repair-1",
+            "path": "/images/examples/aircon-pro-repair-1.png",
+            "category": "installation",
+            "caption": "オフィスビルへの設置作業",
+            "alt": "aircon-pro-repair オフィスビルへの設置作業",
+            "generatedAt": "2026-01-29T05:17:42.347Z"
+          },
+          {
+            "id": "aircon-pro-repair-2",
+            "path": "/images/examples/aircon-pro-repair-2.png",
+            "category": "maintenance",
+            "caption": "定期メンテナンス作業",
+            "alt": "aircon-pro-repair 定期メンテナンス作業",
+            "generatedAt": "2026-01-29T05:17:56.782Z"
+          },
+          {
+            "id": "aircon-pro-repair-3",
+            "path": "/images/examples/aircon-pro-repair-3.png",
+            "category": "emergency",
+            "caption": "緊急修理対応",
+            "alt": "aircon-pro-repair 緊急修理対応",
+            "generatedAt": "2026-01-29T05:18:11.885Z"
+          }
+        ],
+        "store": {
+          "path": "/images/stores/aircon-pro-repair-shop.png",
+          "caption": "業務用エアコンPRO修理のサービス拠点",
+          "alt": "業務用エアコンPRO修理の業務用エアコン修理センター"
+        }
+      }
     },
     {
       "id": "rockfield",
@@ -102,7 +268,90 @@
         "最短当日訪問でスピード対応",
         "夜間対応も可能（割増料金）",
         "初期相談無料"
-      ]
+      ],
+      "images": {
+        "beforeAfter": [
+          {
+            "id": "rockfield-cleaning",
+            "category": "cleaning",
+            "title": "クリーニング作業",
+            "before": {
+              "path": "/images/before-after/rockfield-cleaning-before.png",
+              "caption": "Before: クリーニング作業",
+              "alt": "rockfield cleaning before"
+            },
+            "after": {
+              "path": "/images/before-after/rockfield-cleaning-after.png",
+              "caption": "After: クリーニング作業",
+              "alt": "rockfield cleaning after"
+            },
+            "generatedAt": "2026-01-29T05:19:56.148Z"
+          },
+          {
+            "id": "rockfield-repair",
+            "category": "repair",
+            "title": "ガス不足補充",
+            "before": {
+              "path": "/images/before-after/rockfield-repair-before.png",
+              "caption": "Before: ガス不足補充",
+              "alt": "rockfield repair before"
+            },
+            "after": {
+              "path": "/images/before-after/rockfield-repair-after.png",
+              "caption": "After: ガス不足補充",
+              "alt": "rockfield repair after"
+            },
+            "generatedAt": "2026-01-29T05:20:28.547Z"
+          },
+          {
+            "id": "rockfield-replacement",
+            "category": "replacement",
+            "title": "室外機交換",
+            "before": {
+              "path": "/images/before-after/rockfield-replacement-before.png",
+              "caption": "Before: 室外機交換",
+              "alt": "rockfield replacement before"
+            },
+            "after": {
+              "path": "/images/before-after/rockfield-replacement-after.png",
+              "caption": "After: 室外機交換",
+              "alt": "rockfield replacement after"
+            },
+            "generatedAt": "2026-01-29T05:21:00.670Z"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "rockfield-1",
+            "path": "/images/examples/rockfield-1.png",
+            "category": "installation",
+            "caption": "オフィスビルへの設置作業",
+            "alt": "rockfield オフィスビルへの設置作業",
+            "generatedAt": "2026-01-29T05:21:27.589Z"
+          },
+          {
+            "id": "rockfield-2",
+            "path": "/images/examples/rockfield-2.png",
+            "category": "maintenance",
+            "caption": "定期メンテナンス作業",
+            "alt": "rockfield 定期メンテナンス作業",
+            "generatedAt": "2026-01-29T05:21:42.297Z"
+          },
+          {
+            "id": "rockfield-3",
+            "path": "/images/examples/rockfield-3.png",
+            "category": "emergency",
+            "caption": "緊急修理対応",
+            "alt": "rockfield 緊急修理対応",
+            "generatedAt": "2026-01-29T05:21:57.737Z"
+          }
+        ],
+        "store": {
+          "path": "/images/stores/rockfield-shop.png",
+          "caption": "株式会社ロックフィールドのサービス拠点",
+          "alt": "株式会社ロックフィールドの業務用エアコン修理センター"
+        }
+      }
     },
     {
       "id": "aircon-honten",
@@ -137,7 +386,90 @@
         "修理vs買い替えの提案あり",
         "ダイキン認定業者（40回以上の受賞歴）",
         "無料見積もり対応"
-      ]
+      ],
+      "images": {
+        "beforeAfter": [
+          {
+            "id": "aircon-honten-cleaning",
+            "category": "cleaning",
+            "title": "クリーニング作業",
+            "before": {
+              "path": "/images/before-after/aircon-honten-cleaning-before.png",
+              "caption": "Before: クリーニング作業",
+              "alt": "aircon-honten cleaning before"
+            },
+            "after": {
+              "path": "/images/before-after/aircon-honten-cleaning-after.png",
+              "caption": "After: クリーニング作業",
+              "alt": "aircon-honten cleaning after"
+            },
+            "generatedAt": "2026-01-29T05:23:39.918Z"
+          },
+          {
+            "id": "aircon-honten-repair",
+            "category": "repair",
+            "title": "ガス不足補充",
+            "before": {
+              "path": "/images/before-after/aircon-honten-repair-before.png",
+              "caption": "Before: ガス不足補充",
+              "alt": "aircon-honten repair before"
+            },
+            "after": {
+              "path": "/images/before-after/aircon-honten-repair-after.png",
+              "caption": "After: ガス不足補充",
+              "alt": "aircon-honten repair after"
+            },
+            "generatedAt": "2026-01-29T05:24:12.198Z"
+          },
+          {
+            "id": "aircon-honten-replacement",
+            "category": "replacement",
+            "title": "室外機交換",
+            "before": {
+              "path": "/images/before-after/aircon-honten-replacement-before.png",
+              "caption": "Before: 室外機交換",
+              "alt": "aircon-honten replacement before"
+            },
+            "after": {
+              "path": "/images/before-after/aircon-honten-replacement-after.png",
+              "caption": "After: 室外機交換",
+              "alt": "aircon-honten replacement after"
+            },
+            "generatedAt": "2026-01-29T05:24:46.616Z"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "aircon-honten-1",
+            "path": "/images/examples/aircon-honten-1.png",
+            "category": "installation",
+            "caption": "オフィスビルへの設置作業",
+            "alt": "aircon-honten オフィスビルへの設置作業",
+            "generatedAt": "2026-01-29T05:25:03.082Z"
+          },
+          {
+            "id": "aircon-honten-2",
+            "path": "/images/examples/aircon-honten-2.png",
+            "category": "maintenance",
+            "caption": "定期メンテナンス作業",
+            "alt": "aircon-honten 定期メンテナンス作業",
+            "generatedAt": "2026-01-29T05:25:33.421Z"
+          },
+          {
+            "id": "aircon-honten-3",
+            "path": "/images/examples/aircon-honten-3.png",
+            "category": "emergency",
+            "caption": "緊急修理対応",
+            "alt": "aircon-honten 緊急修理対応",
+            "generatedAt": "2026-01-29T05:25:48.348Z"
+          }
+        ],
+        "store": {
+          "path": "/images/stores/aircon-honten-shop.png",
+          "caption": "エアコン総本店のサービス拠点",
+          "alt": "エアコン総本店の業務用エアコン修理センター"
+        }
+      }
     },
     {
       "id": "shuri110",
@@ -172,7 +504,90 @@
         "24時間コールセンター対応",
         "見積もりキャンセル規定が明確",
         "大手企業運営で安心感あり"
-      ]
+      ],
+      "images": {
+        "beforeAfter": [
+          {
+            "id": "shuri110-cleaning",
+            "category": "cleaning",
+            "title": "クリーニング作業",
+            "before": {
+              "path": "/images/before-after/shuri110-cleaning-before.png",
+              "caption": "Before: クリーニング作業",
+              "alt": "shuri110 cleaning before"
+            },
+            "after": {
+              "path": "/images/before-after/shuri110-cleaning-after.png",
+              "caption": "After: クリーニング作業",
+              "alt": "shuri110 cleaning after"
+            },
+            "generatedAt": "2026-01-29T05:27:38.005Z"
+          },
+          {
+            "id": "shuri110-repair",
+            "category": "repair",
+            "title": "ガス不足補充",
+            "before": {
+              "path": "/images/before-after/shuri110-repair-before.png",
+              "caption": "Before: ガス不足補充",
+              "alt": "shuri110 repair before"
+            },
+            "after": {
+              "path": "/images/before-after/shuri110-repair-after.png",
+              "caption": "After: ガス不足補充",
+              "alt": "shuri110 repair after"
+            },
+            "generatedAt": "2026-01-29T05:28:14.704Z"
+          },
+          {
+            "id": "shuri110-replacement",
+            "category": "replacement",
+            "title": "室外機交換",
+            "before": {
+              "path": "/images/before-after/shuri110-replacement-before.png",
+              "caption": "Before: 室外機交換",
+              "alt": "shuri110 replacement before"
+            },
+            "after": {
+              "path": "/images/before-after/shuri110-replacement-after.png",
+              "caption": "After: 室外機交換",
+              "alt": "shuri110 replacement after"
+            },
+            "generatedAt": "2026-01-29T05:28:47.432Z"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "shuri110-1",
+            "path": "/images/examples/shuri110-1.png",
+            "category": "installation",
+            "caption": "オフィスビルへの設置作業",
+            "alt": "shuri110 オフィスビルへの設置作業",
+            "generatedAt": "2026-01-29T05:29:02.662Z"
+          },
+          {
+            "id": "shuri110-2",
+            "path": "/images/examples/shuri110-2.png",
+            "category": "maintenance",
+            "caption": "定期メンテナンス作業",
+            "alt": "shuri110 定期メンテナンス作業",
+            "generatedAt": "2026-01-29T05:29:17.839Z"
+          },
+          {
+            "id": "shuri110-3",
+            "path": "/images/examples/shuri110-3.png",
+            "category": "emergency",
+            "caption": "緊急修理対応",
+            "alt": "shuri110 緊急修理対応",
+            "generatedAt": "2026-01-29T05:29:38.159Z"
+          }
+        ],
+        "store": {
+          "path": "/images/stores/shuri110-shop.png",
+          "caption": "空調修理110番のサービス拠点",
+          "alt": "空調修理110番の業務用エアコン修理センター"
+        }
+      }
     },
     {
       "id": "fuji-setubi",
@@ -206,7 +621,90 @@
         "根本原因の追究と再発防止",
         "施工管理体制が充実",
         "ダイキン認定販売施工店"
-      ]
+      ],
+      "images": {
+        "beforeAfter": [
+          {
+            "id": "fuji-setubi-cleaning",
+            "category": "cleaning",
+            "title": "クリーニング作業",
+            "before": {
+              "path": "/images/before-after/fuji-setubi-cleaning-before.png",
+              "caption": "Before: クリーニング作業",
+              "alt": "fuji-setubi cleaning before"
+            },
+            "after": {
+              "path": "/images/before-after/fuji-setubi-cleaning-after.png",
+              "caption": "After: クリーニング作業",
+              "alt": "fuji-setubi cleaning after"
+            },
+            "generatedAt": "2026-01-29T05:31:20.860Z"
+          },
+          {
+            "id": "fuji-setubi-repair",
+            "category": "repair",
+            "title": "ガス不足補充",
+            "before": {
+              "path": "/images/before-after/fuji-setubi-repair-before.png",
+              "caption": "Before: ガス不足補充",
+              "alt": "fuji-setubi repair before"
+            },
+            "after": {
+              "path": "/images/before-after/fuji-setubi-repair-after.png",
+              "caption": "After: ガス不足補充",
+              "alt": "fuji-setubi repair after"
+            },
+            "generatedAt": "2026-01-29T05:31:56.440Z"
+          },
+          {
+            "id": "fuji-setubi-replacement",
+            "category": "replacement",
+            "title": "室外機交換",
+            "before": {
+              "path": "/images/before-after/fuji-setubi-replacement-before.png",
+              "caption": "Before: 室外機交換",
+              "alt": "fuji-setubi replacement before"
+            },
+            "after": {
+              "path": "/images/before-after/fuji-setubi-replacement-after.png",
+              "caption": "After: 室外機交換",
+              "alt": "fuji-setubi replacement after"
+            },
+            "generatedAt": "2026-01-29T05:32:32.797Z"
+          }
+        ],
+        "gallery": [
+          {
+            "id": "fuji-setubi-1",
+            "path": "/images/examples/fuji-setubi-1.png",
+            "category": "installation",
+            "caption": "オフィスビルへの設置作業",
+            "alt": "fuji-setubi オフィスビルへの設置作業",
+            "generatedAt": "2026-01-29T05:32:47.956Z"
+          },
+          {
+            "id": "fuji-setubi-2",
+            "path": "/images/examples/fuji-setubi-2.png",
+            "category": "maintenance",
+            "caption": "定期メンテナンス作業",
+            "alt": "fuji-setubi 定期メンテナンス作業",
+            "generatedAt": "2026-01-29T05:33:02.826Z"
+          },
+          {
+            "id": "fuji-setubi-3",
+            "path": "/images/examples/fuji-setubi-3.png",
+            "category": "emergency",
+            "caption": "緊急修理対応",
+            "alt": "fuji-setubi 緊急修理対応",
+            "generatedAt": "2026-01-29T05:33:18.061Z"
+          }
+        ],
+        "store": {
+          "path": "/images/stores/fuji-setubi-shop.png",
+          "caption": "株式会社富士設備のサービス拠点",
+          "alt": "株式会社富士設備の業務用エアコン修理センター"
+        }
+      }
     }
   ],
   "rankingDescription": {
