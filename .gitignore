@@ -67,10 +67,10 @@ logs/
 *.tmp
 *.temp
 
-# AI生成画像
-public/images/before-after/*
-public/images/examples/*
-public/images/stores/*
+# AI生成画像（.gitkeepのみ保持、画像ファイルはコミット）
+# public/images/before-after/*
+# public/images/examples/*
+# public/images/stores/*
 !public/images/before-after/.gitkeep
 !public/images/examples/.gitkeep
 !public/images/stores/.gitkeep
